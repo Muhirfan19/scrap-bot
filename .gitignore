@@ -1,0 +1,17 @@
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Build output ---
+naga-bot-go
+/bin/
+
+# --- Logs ---
+*.log
+nohup.out
+
+# --- OS / editor junk ---
+.DS_Store
+.vscode/
+.idea/
